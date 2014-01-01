@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="skinbark/android_device_lge_thunderc" path="device/lge/thunderc" remote="github" revision="cm-11.0" />
+<project name="skinbark/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" remote="github" revision="cm-11.0" />
+<project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" remote="github" revision="cm-11.0" />
+<project name="skinbark/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" remote="github" revision="cm-11.0" />
+<project name="androidarmv6/android_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
+<project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="github" revision="cm-11.0" />
+<!--  <remove-project name="androidarmv6/android_bootable_recovery" />
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-4.4" /> -->
+  <remove-project name="androidarmv6/android_packages_apps_Settings" />
+  <project name="skinbark/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-11.0" />  
+  <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
+  <remove-project name="CyanogenMod/android_device_generic_mips" />
+  <remove-project name="CyanogenMod/android_device_generic_x86" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="CyanogenMod/android_device_google_accessory_arduino" />
+  <remove-project name="CyanogenMod/android_device_google_accessory_demokit" />
+  <remove-project name="CyanogenMod/android_external_qemu" />
+  <remove-project name="CyanogenMod/android_external_qemu-pc-bios" />
+  <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
+  <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+  <remove-project name="CyanogenMod/android_packages_apps_Torch" />
+  <remove-project name="CyanogenMod/android_packages_apps_Stk" />
+</manifest>
